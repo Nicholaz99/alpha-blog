@@ -4,10 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 </head>
-	<%= link_to image_tag('alpha_logo.png'), 'about' %>
-	<h1>Welcome to the Alpha Blog</h1>
-	<p>Feel free to share your articles</p>
-	<%= link_to ' Alpha Blog', articles_path %> | <%= link_to 'About', about_path %>
+	<!-- <%= link_to image_tag('alpha_logo.png'), 'about' %> -->
+	<div class="center jumbotron">
+		<h1>AlphaBlog</h1>
+		<p>Welcome to the AlphaBlog</p>
+		<!-- <p>Feel free to share your stories</p> -->
+		<%= link_to 'Sign up now', '#', class: "btn btn-danger btn-lg btn-xlarge" %>
+	</div>
 <body>
 	
 </body>
